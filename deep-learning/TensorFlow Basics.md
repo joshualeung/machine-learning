@@ -12,3 +12,7 @@ After the graph has been launched in a session, an Operation can be executed by 
 
 #### Variable 与get_variable
 tf.Variable()每次都会创建新的对象，如果指定了相同的名称，tf会自动处理。而tf.get_variable在遇到相同名称的对象时会报错。如果指定了reuse为True, 则会返回已有的对象。
+
+
+#### CPU和GPU的设置
+参考: [](https://www.cnblogs.com/darkknightzh/p/6591923.html)
